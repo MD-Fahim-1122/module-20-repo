@@ -1,0 +1,9 @@
+function multiplecationOfNumber(numbers) {
+    let result = 1;
+    for (let i = 1; i <= 7; i++) {
+        result = result * i;
+        console.log(i, result);
+    }
+    return result;
+}
+multiplecationOfNumber(1)
